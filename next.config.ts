@@ -11,12 +11,11 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
       {
-        protocol: 'http',
+        protocol: '**',
         hostname: '**',
       },
     ],
   },
-  outputFileTracingRoot: path.resolve(__dirname, '../../'),
   typescript: {
     ignoreBuildErrors: true,
   },
