@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
       {
-        protocol: '**',
+        protocol: 'https',
         hostname: '**',
       },
     ],
